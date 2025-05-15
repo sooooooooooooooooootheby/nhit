@@ -1,7 +1,7 @@
 <template>
-    <div class="w-full h-82 p-12 mt-24 bg-gray-950 text-white relative">
-        <div class="w-full border-t-2 border-b-2 border-white flex items-center">
-            <div class="p-4 border-r-2 border-white">
+    <div class="w-full h-82 p-12 mt-24 bg-gray-950 text-white relative max-lg:h-auto max-lg:px-2">
+        <div class="w-full border-t-2 border-b-2 border-white flex items-center max-lg:flex max-lg:flex-col-reverse max-lg:border-0">
+            <div class="p-4 border-r-2 border-white max-lg:border-0">
                 <p class="text-xl font-bold">North Harbin Institute of Technology</p>
                 <div class="text-gray-400 text-sm mt-2">
                     <p>Moon</p>

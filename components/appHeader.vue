@@ -22,7 +22,7 @@
                 <span class="text-lg">Close</span>
                 <Icon class="text-2xl ml-2" name="material-symbols:close" />
             </div>
-            <h1 class="text-4xl font-bold" @click="cutMenu">
+            <h1 class="text-4xl font-bold max-lg:pt-12" @click="cutMenu">
                 <NuxtLink to="/">North Harbin Institute of Technology</NuxtLink>
             </h1>
             <ul class="mt-6 border-l-2 border-blue-800 pl-4 [&>*]:text-2xl [&>*]:hover:underline [&>*]:my-2">

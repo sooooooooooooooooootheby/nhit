@@ -1,8 +1,8 @@
 <template>
     <div class="px-6 mt-32">
-        <div class="w-full h-120 overflow-hidden flex items-center relative">
+        <div class="w-full h-120 overflow-hidden flex items-center relative max-lg:h-auto max-lg:overflow-auto max-lg:flex-col max-lg:items-start">
             <img src="/pexels-cookiecutter-17323801.jpg" alt="pexels-cookiecutter-17323801.jpg" />
-            <div class="absolute bottom-0 bg-white text-6xl px-4 py-2 font-bold">News</div>
+            <div class="absolute bottom-0 bg-white text-6xl px-4 py-2 font-bold max-lg:static max-lg:px-0">News</div>
         </div>
         <p class="text-2xl font-bold my-12">The latest news at North Harbin Institute of Technology</p>
         <ul class="mb-12">

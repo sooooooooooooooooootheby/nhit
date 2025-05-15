@@ -1,8 +1,10 @@
 <template>
     <div class="px-6 mt-32">
-        <div class="w-full h-120 overflow-hidden flex items-center relative">
+        <div
+            class="w-full h-120 overflow-hidden flex items-center relative max-lg:h-auto max-lg:overflow-auto max-lg:flex-col max-lg:items-start"
+        >
             <img src="/pexels-cookiecutter-1732871.jpg" alt="pexels-cookiecutter-1732871.jpg" />
-            <div class="absolute bottom-0 bg-white text-6xl px-4 py-2 font-bold">
+            <div class="absolute bottom-0 bg-white text-6xl px-4 py-2 font-bold max-lg:static max-lg:px-0">
                 About North Harbin Institute of Technology
             </div>
         </div>

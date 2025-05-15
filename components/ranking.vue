@@ -1,6 +1,6 @@
 <template>
-    <div class="w-6xl mx-auto mb-10 background">
-        <ul class="text-white p-12 grid grid-cols-2 [&>*]:min-h-24">
+    <div class="w-6xl mx-auto mb-10 background max-lg:w-full">
+        <ul class="text-white p-12 grid grid-cols-2 [&>*]:min-h-24 max-lg:flex max-lg:flex-col max-lg:p-4">
             <li v-for="item in ranking" class="m-6 pt-4 border-t border-white">
                 <h2 class="text-4xl font-semibold">{{ item.title }}</h2>
                 <p class="mt-2 text-blue-600">{{ item.info }} Nobel Prize winners</p>

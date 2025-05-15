@@ -1,13 +1,17 @@
 <template>
     <div class="px-6 mt-32">
-        <div class="w-full h-120 overflow-hidden flex items-center relative">
+        <div
+            class="w-full h-120 overflow-hidden flex items-center relative max-lg:h-auto max-lg:overflow-auto max-lg:flex-col max-lg:items-start"
+        >
             <img src="/pexels-tima-miroshnichenko-9574411.jpg" alt="pexels-tima-miroshnichenko-9574411.jpg" />
-            <div class="absolute bottom-0 bg-white text-6xl px-4 py-2 font-bold">Apply undergraduate</div>
+            <div class="absolute bottom-0 bg-white text-6xl px-4 py-2 font-bold max-lg:static max-lg:px-0 max-lg:text-3xl">
+                Apply undergraduate
+            </div>
         </div>
-        <p class="w-2xl text-2xl font-semibold my-12">
+        <p class="w-2xl text-2xl font-semibold my-12 max-lg:w-full">
             Please fill in some information. We will review it within 7 working days and send you the admission notice.
         </p>
-        <form action="" class="w-md flex flex-col">
+        <form action="" class="w-md flex flex-col max-lg:w-full">
             <label for="email" class="w-full flex items-center mb-4">
                 <span class="w-[42px] mr-2">Email</span>
                 <input class="input flex-1" id="email" type="email" />
